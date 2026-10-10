@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+bob_config.json
+bob_memory.json
+bob_vault.json
+bob_pending_restart.json
+
+# Runtime state and generated reports
+*.db
+*.sqlite
+*.sqlite3
+playwright-report/
+test-results/
+
+# JavaScript dependencies from the Playwright starter
+node_modules/

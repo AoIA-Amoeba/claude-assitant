@@ -1,0 +1,13 @@
+PyQt5>=5.15.9,<6
+google-generativeai>=0.4.0
+pywin32==305; sys_platform == 'win32'
+# NEW for advanced pet (jumping + voice + automation)
+SpeechRecognition>=3.8.1
+pyaudio>=0.2.11
+pyttsx3>=2.90
+# PRO: tab jumping + PC control + driver fix
+pyautogui>=0.9.54
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+# BOB: low-RAM monitor (optional but recommended)
+psutil>=5.9.0

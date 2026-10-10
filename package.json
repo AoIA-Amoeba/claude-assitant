@@ -1,0 +1,20 @@
+﻿{
+    "name":  "claude-assitant",
+    "version":  "1.0.0",
+    "description":  "",
+    "main":  "index.js",
+    "scripts":  {
+                    "test":  "npx playwright test"
+                },
+    "keywords":  [
+
+                 ],
+    "type":  "commonjs",
+    "allowScripts":  {
+                         "@playwright/test":  true,
+                         "playwright":  true
+                     },
+    "devDependencies":  {
+                            "@playwright/test":  "^1.63.0"
+                        }
+}
